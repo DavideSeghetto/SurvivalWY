@@ -74,7 +74,7 @@ def naive_wy_logrank_test(data, jp=1000, alpha=0.05):
     # Marker combinations
     marker_combos = []
     #for r in range(1, len(marker_columns) + 1):
-    for r in range(1, 7):
+    for r in range(1, 3):
         marker_combos.extend(combinations(marker_columns, r))
         
     # --- Main loop ---
@@ -139,9 +139,9 @@ def naive_wy_logrank_test(data, jp=1000, alpha=0.05):
 if __name__ == "__main__":
     # Data loading
     try:
-        markers = pd.read_csv("sample_logrank_item.csv")
-        status = pd.read_csv("sample_logrank_status.csv")
-        time = pd.read_csv("sample_logrank_time.csv")
+        markers = pd.read_csv("data/sample_logrank_item.csv")
+        status = pd.read_csv("data/sample_logrank_status.csv")
+        time = pd.read_csv("data/sample_logrank_time.csv")
     except FileNotFoundError:
         print("Error: csv files not found.")
 
