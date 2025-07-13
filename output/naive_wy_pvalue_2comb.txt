@@ -1,0 +1,58 @@
+Initializing Naive-WY with jp = 1000 permutations and alpha = 0.05
+1. Generating the permuted datasets...
+2. Analysis of all combinations on original and permuted data...
+Analisi Combinazioni: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 45/45 [25:38<00:00, 34.20s/it]
+
+3. Computation of the corrected significance threshold...
+
+#### Significant Results after Westfall-Young Correction ####
+Corrected p-value threshold (delta*): 1.1584e-03 (for FWER < 0.05)
+----------------------------------------------------------------------------------------------------
+Combinazione Marcatori                              Stat        P-value Originale
+----------------------------------------------------------------------------------------------------
+G3PDH_570&r60_n9                                 18.4568             1.7380e-05
+G3PDH_570&r60_1                                  10.6478             1.1020e-03
+r60_n9                                            8.1727             4.2525e-03
+Pro25G&G3PDH_570                                  7.9090             4.9188e-03
+r60_3&r60_n9                                      6.8303             8.9623e-03
+r60_3                                             6.2869             1.2163e-02
+G3PDH_570                                         5.9053             1.5096e-02
+r60_1                                             5.3189             2.1095e-02
+G3PDH_570&Pro25G_onG3PDH570_20bp                  4.9069             2.6749e-02
+G3PDH_570&Pro25G_onG3PDH570_10Ts                  4.9069             2.6749e-02
+G3PDH_570&r60_a22                                 4.2529             3.9184e-02
+r60_1&r60_3                                       3.7749             5.2026e-02
+G3PDH_570&r60_3                                   3.7144             5.3946e-02
+r60_n9&r60_a22                                    3.3970             6.5314e-02
+Pro25G&r60_n9                                     3.3044             6.9093e-02
+r60_1&r60_n9                                      3.2459             7.1603e-02
+variant_gridline&G3PDH_570                        3.0706             7.9719e-02
+Pro25G_onG3PDH570_10Ts&r60_n9                     2.7676             9.6189e-02
+Pro25G_onG3PDH570_10Ts                            2.2772             1.3129e-01
+Pro25G&Pro25G_onG3PDH570_10Ts                     2.1616             1.4150e-01
+Pro25G                                            2.0734             1.4989e-01
+Pro25G_onG3PDH570_10Ts&r60_a22                    1.4962             2.2126e-01
+Pro25G&r60_3                                      1.0723             3.0043e-01
+Pro25G&Pro25G_onG3PDH570_20bp                     0.9157             3.3860e-01
+Pro25G&r60_a22                                    0.9157             3.3860e-01
+Pro25G_onG3PDH570_20bp&Pro25G_onG3PDH570_10Ts     0.9157             3.3860e-01
+Pro25G_onG3PDH570_20bp&r60_a22                    0.9157             3.3860e-01
+Pro25G_onG3PDH570_10Ts&r60_3                      0.8031             3.7018e-01
+Pro25G_onG3PDH570_20bp&r60_n9                     0.7487             3.8690e-01
+Pro25G_onG3PDH570_20bp                            0.6317             4.2675e-01
+r60_3&r60_a22                                     0.6013             4.3807e-01
+r60_a22                                           0.5087             4.7568e-01
+Pro25G&variant_gridline                           0.4338             5.1013e-01
+variant_gridline&Pro25G_onG3PDH570_10Ts           0.4338             5.1013e-01
+Pro25G&r60_1                                      0.3484             5.5502e-01
+r60_1&r60_a22                                     0.2758             5.9950e-01
+Pro25G_onG3PDH570_10Ts&r60_1                      0.1880             6.6457e-01
+variant_gridline&r60_n9                           0.1843             6.6772e-01
+variant_gridline&r60_a22                          0.1369             7.1139e-01
+Pro25G_onG3PDH570_20bp&r60_3                      0.1074             7.4313e-01
+Pro25G_onG3PDH570_20bp&r60_1                      0.0767             7.8186e-01
+variant_gridline&r60_1                            0.0487             8.2539e-01
+variant_gridline&Pro25G_onG3PDH570_20bp           0.0463             8.2966e-01
+variant_gridline&r60_3                            0.0461             8.3000e-01
+variant_gridline                                  0.0354             8.5079e-01
+----------------------------------------------------------------------------------------------------

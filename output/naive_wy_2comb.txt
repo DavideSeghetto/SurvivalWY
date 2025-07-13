@@ -1,0 +1,58 @@
+Initializing WY with jp = 1000 permutations and alpha = 0.05
+1. Generating the permuted datasets...
+2. Analysis of all combinations on original and permuted data...
+Analyzing combinations: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 45/45 [24:53<00:00, 33.18s/it]
+
+3. Computation of the corrected significance threshold...
+
+#### Significant Results ####
+Corrected Z-statistic threshold (delta*): 9.1706 (for FWER < 0.05)
+------------------------------------------------------------
+Combinazione Marcatori                          Z-statistic
+------------------------------------------------------------
+G3PDH_570&r60_n9                                 18.4568
+G3PDH_570&r60_1                                  10.6478
+r60_n9                                            8.1727
+Pro25G&G3PDH_570                                  7.9090
+r60_3&r60_n9                                      6.8303
+r60_3                                             6.2869
+G3PDH_570                                         5.9053
+r60_1                                             5.3189
+G3PDH_570&Pro25G_onG3PDH570_20bp                  4.9069
+G3PDH_570&Pro25G_onG3PDH570_10Ts                  4.9069
+G3PDH_570&r60_a22                                 4.2529
+r60_1&r60_3                                       3.7749
+G3PDH_570&r60_3                                   3.7144
+r60_n9&r60_a22                                    3.3970
+Pro25G&r60_n9                                     3.3044
+r60_1&r60_n9                                      3.2459
+variant_gridline&G3PDH_570                        3.0706
+Pro25G_onG3PDH570_10Ts&r60_n9                     2.7676
+Pro25G_onG3PDH570_10Ts                            2.2772
+Pro25G&Pro25G_onG3PDH570_10Ts                     2.1616
+Pro25G                                            2.0734
+Pro25G_onG3PDH570_10Ts&r60_a22                    1.4962
+Pro25G&r60_3                                      1.0723
+Pro25G&Pro25G_onG3PDH570_20bp                     0.9157
+Pro25G&r60_a22                                    0.9157
+Pro25G_onG3PDH570_20bp&Pro25G_onG3PDH570_10Ts     0.9157
+Pro25G_onG3PDH570_20bp&r60_a22                    0.9157
+Pro25G_onG3PDH570_10Ts&r60_3                      0.8031
+Pro25G_onG3PDH570_20bp&r60_n9                     0.7487
+Pro25G_onG3PDH570_20bp                            0.6317
+r60_3&r60_a22                                     0.6013
+r60_a22                                           0.5087
+Pro25G&variant_gridline                           0.4338
+variant_gridline&Pro25G_onG3PDH570_10Ts           0.4338
+Pro25G&r60_1                                      0.3484
+r60_1&r60_a22                                     0.2758
+Pro25G_onG3PDH570_10Ts&r60_1                      0.1880
+variant_gridline&r60_n9                           0.1843
+variant_gridline&r60_a22                          0.1369
+Pro25G_onG3PDH570_20bp&r60_3                      0.1074
+Pro25G_onG3PDH570_20bp&r60_1                      0.0767
+variant_gridline&r60_1                            0.0487
+variant_gridline&Pro25G_onG3PDH570_20bp           0.0463
+variant_gridline&r60_3                            0.0461
+variant_gridline                                  0.0354
+------------------------------------------------------------
